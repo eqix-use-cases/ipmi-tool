@@ -3,6 +3,15 @@
 ## How to consume
 
 ```
+git clone git@github.com:equinix-metal-use-cases/ipmi-tool.git
+cd ipmi-tool
+```
+
+Start the Vagrant box
+
+```
+vagrant up --provider virtualbox
+vagrant ssh
 ```
 
 ## Commands examples
